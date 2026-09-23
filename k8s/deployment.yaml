@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: notes-app
-          image: notes-app:v1
+          image: notes-app:v1_notPresent
           imagePullPolicy: IfNotPresent
 
           ports:
